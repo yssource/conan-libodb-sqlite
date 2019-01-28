@@ -1,0 +1,6 @@
+Name: libodb-sqlite
+Version: 2.5.0-b.9
+Description: SQLite ODB runtime library
+URL: https://www.codesynthesis.com/products/odb/
+Cflags: -I/home/jimmy/workspace/devel/conan-libodb-sqlite/dist/include -DLIBODB_SQLITE_BUILD2 -DLIBODB_SQLITE_SHARED
+Libs: -L/home/jimmy/workspace/devel/conan-libodb-sqlite/dist/lib -lodb-sqlite -lodb -lsqlite3

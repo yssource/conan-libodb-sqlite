@@ -1,0 +1,50 @@
+# Created automatically by the config module, but feel free to edit.
+#
+config.version = 1
+
+config.cc.poptions = [null]
+config.cc.coptions = -O3
+config.cc.loptions = [null]
+config.cc.libs = [null]
+
+config.cxx = g++
+config.cxx.poptions = [null]
+config.cxx.coptions = [null]
+config.cxx.loptions = [null]
+config.cxx.libs = [null]
+
+#config.c =
+config.c.poptions = [null]
+config.c.coptions = [null]
+config.c.loptions = [null]
+config.c.libs = [null]
+
+config.bin.lib = both
+config.bin.exe.lib = shared static
+config.bin.liba.lib = static shared
+config.bin.libs.lib = shared static
+config.bin.rpath = [null]
+#config.bin.ar =
+#config.bin.ranlib =
+
+config.install.cmd = install
+config.install.options = [null]
+config.install.mode = 644
+config.install.dir_mode = 755
+config.install.sudo = [null]
+config.install.root = /home/jimmy/workspace/devel/conan-libodb-sqlite/dist/
+config.install.data_root = root/
+config.install.exec_root = root/
+config.install.exec_root.mode = 755
+config.install.sbin = exec_root/sbin/
+config.install.bin = exec_root/bin/
+config.install.lib = exec_root/lib/
+config.install.libexec = exec_root/libexec/
+config.install.pkgconfig = lib/pkgconfig/
+config.install.pkgconfig.mode = 644
+config.install.data = data_root/share/
+config.install.include = data_root/include/
+config.install.doc = data_root/share/doc/
+config.install.man = data_root/share/man/
+config.install.man1 = man/man1/
+config.install.chroot = [null]

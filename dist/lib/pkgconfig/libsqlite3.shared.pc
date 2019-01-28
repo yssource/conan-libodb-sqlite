@@ -1,0 +1,6 @@
+Name: libsqlite3
+Version: 3.18.2+4
+Description: SQL database engine as an in-process C library
+URL: https://sqlite.org/
+Cflags: -I/home/jimmy/workspace/devel/conan-libodb-sqlite/dist/include
+Libs: -L/home/jimmy/workspace/devel/conan-libodb-sqlite/dist/lib -lsqlite3

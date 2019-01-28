@@ -1,0 +1,12 @@
+# file      : build/root.build
+# copyright : Copyright (c) 2009-2018 Code Synthesis Tools CC
+# license   : GNU GPL v2; see accompanying LICENSE file
+
+cxx.std = 11
+
+using cxx
+
+hxx{*}: extension = hxx
+ixx{*}: extension = ixx
+txx{*}: extension = txx
+cxx{*}: extension = cxx

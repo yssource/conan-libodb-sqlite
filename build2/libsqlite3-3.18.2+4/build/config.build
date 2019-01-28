@@ -1,0 +1,10 @@
+# Created automatically by the config module, but feel free to edit.
+#
+config.version = 1
+
+# Base configuration inherited from ../
+#
+
+config.install.libexec = exec_root/libexec/libsqlite3/
+config.install.data = data_root/share/libsqlite3/
+config.install.doc = data_root/share/doc/libsqlite3/

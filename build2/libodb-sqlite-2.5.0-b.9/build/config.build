@@ -1,0 +1,13 @@
+# Created automatically by the config module, but feel free to edit.
+#
+config.version = 1
+
+# Base configuration inherited from ../
+#
+
+config.cli = cli
+config.cli.options = [null]
+
+config.install.libexec = exec_root/libexec/libodb-sqlite/
+config.install.data = data_root/share/libodb-sqlite/
+config.install.doc = data_root/share/doc/libodb-sqlite/
